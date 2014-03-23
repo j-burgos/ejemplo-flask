@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ejemplo-flask by j-burgos</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Ejemplo-flask</h1>
+        <p>Ejemplo muy básico de una aplicación usando Flask y SQLAlchemy</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/j-burgos/ejemplo-flask" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/j-burgos/ejemplo-flask/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/j-burgos/ejemplo-flask/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="ejemplo-b%C3%A1sico-con-flask-y-sqlalchemy" class="anchor" href="#ejemplo-b%C3%A1sico-con-flask-y-sqlalchemy"><span class="octicon octicon-link"></span></a>Ejemplo básico con Flask y SQLAlchemy</h1>
+
+<p>Esta aplicación genera una lista de nombres de personas
+Y existe la posibilidad de agregar nuevos nombres a la lista</p>
+
+<p>Este es un ejemplo muy básico para mostrar los conceptos básicos de Flask
+Se utilizan:</p>
+
+<ul>
+<li>Rutas con y sin párametros</li>
+<li>Generación de respuestas con templates</li>
+<li>Templates que reciben parametros</li>
+<li>Tomar parametros de un request mediante post</li>
+<li>Manejo de errores como 404 y 500</li>
+<li>Un modelo básico de SQLAlchemy</li>
+<li>Listar y agregar objetos en la base de datos</li>
+</ul><p>Se utilizó para una sesión de ~3 horas de un taller de desarrollo con Python</p>
+
+<h1>
+<a name="instalaci%C3%B3n" class="anchor" href="#instalaci%C3%B3n"><span class="octicon octicon-link"></span></a>Instalación</h1>
+
+<p>Se debe crear un virtual environment, activarlo y luego instalar las dependencias</p>
+
+<pre><code>virtualenv venv
+venv\Scripts\activate.bat (Windows)
+. venv/bin/activate (Linux/mac)
+pip install -r requirements.txt
+</code></pre>
+
+<h1>
+<a name="ejecuci%C3%B3n" class="anchor" href="#ejecuci%C3%B3n"><span class="octicon octicon-link"></span></a>Ejecución</h1>
+
+<p>Para iniciar el servidor solo se tiene que llamar al script
+(Asegurarse que el virtualenv esta activado)</p>
+
+<pre><code>python app.py
+</code></pre>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/j-burgos">j-burgos</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
