@@ -40,7 +40,7 @@ def index():
 		numeros=numeros,
 		nombre=nombre)
 
-#Decorador( con ruta con un parametro
+#Decorador para ruta con un parametro
 @app.route('/param/<int:parametro>')
 #En la funcion se recibe con el mismo nombre
 def con_param(parametro):

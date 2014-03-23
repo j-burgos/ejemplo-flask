@@ -26,3 +26,11 @@ Se debe crear un virtual environment, activarlo y luego instalar las dependencia
 	venv\Scripts\activate.bat (Windows)
 	. venv/bin/activate (Linux/mac)
 	pip install -r requirements.txt
+
+Ejecución
+=========
+
+Para iniciar el servidor solo se tiene que llamar al script
+(Asegurarse que el virtualenv esta activado)
+
+	python app.py
