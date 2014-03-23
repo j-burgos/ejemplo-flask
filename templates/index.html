@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Nombre</title>
+</head>
+<body>
+	<h1>Hola {{ nombre }}</h1>
+	<ul>
+		{% for numero in numeros %}
+			<li> {{ numero }}</li>
+		{% endfor %}
+	</ul>
+	<form method="POST" action="/action">
+		<label for="nombre">Nombre:</label>
+		<input name="nombre" type="text">
+	</form>
+</body>
+</html>
